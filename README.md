@@ -27,4 +27,4 @@ Proyek ini dibangun untuk memberikan kebebasan dan fleksibilitas kepada pengguna
 3. **Nikmati layanan volzeur secara gratis tanpa perlu login**
 
 
-Dibuat dengan ❤️ oleh [Your Name]
+Dibuat dengan ❤️ oleh Nicodemus Gurning
