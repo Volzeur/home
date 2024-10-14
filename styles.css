@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+  font-family: 'Poppins', monospace;
+  padding: 10px;
+}
+
+#perkenalan {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#usebutton {
+    font-size: 14px;
+    background-color: #242424;
+    color: white;
+    margin: 10px;
+    border: 2px solid#242424;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+#usebutton:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#howbutton {
+    font-size: 14px;
+    background-color: transparent;
+    color: #242424;
+    margin: 10px;
+    border: 2px solid#242424;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: 0.5s ease-in-out;
+}
+
+a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#howbutton:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#layanan {
+  margin-top: 20vh;
+}
+
+#service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4vw;
+}
+
+#intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4vw;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.cards {
+  width: 80vw;
+  max-width: 360px;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  background: url('laptop.png') #ffffff55 no-repeat;
+  background-size: 90%;
+  background-position: center;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.3s ease-out, transform 0.3s ease-out;
+  transition-delay: 0.1s;
+
+  &:nth-of-type(2n) {
+    background-image: url('time.png');
+  }
+
+  &:nth-of-type(3n) {
+    background-image: url('care.png');
+  }
+}
+
+.card {
+    width: 35vw;
+    max-width: 275px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    background: url('volzeur.png') #ffffff55 no-repeat;
+    background-size: 90%;
+    background-position: center;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    transition: box-shadow 0.3s ease-out, transform 0.3s ease-out;
+    transition-delay: 0.1s;
+  
+    &:nth-of-type(2n) {
+      background-image: url('pv-dark.png');
+    }
+  
+    &:nth-of-type(3n) {
+      background-image: url('pm-light.png');
+    }
+  
+    &:nth-of-type(4n) {
+      background-image: url('pt-light.png');
+    }
+  
+    &:nth-of-type(5n) {
+      background-image: url('pc.png');
+    }
+
+    &:nth-of-type(6n) {
+      background-image: url('pq.png');
+    }
+  
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #242424;
+      opacity: 0.1;
+      transition: opacity 0.3s ease-in-out;
+      border-radius: 10px; 
+    }
+  
+    &:hover {
+      box-shadow: rgba(45, 45, 45, 0.05) 0px 2px 2px, rgba(49, 49, 49, 0.05) 0px 4px 4px, rgba(42, 42, 42, 0.05) 0px 8px 8px, rgba(32, 32, 32, 0.05) 0px 16px 16px, rgba(49, 49, 49, 0.05) 0px 32px 32px, rgba(35, 35, 35, 0.05) 0px 64px 64px; /* box-shadow from https://muz.li/ */
+      transform: translate(0, -0.4rem);
+  
+      &:after {
+        opacity: 0;
+      }
+    }
+    
+    &__details {
+      position: relative;
+      z-index: 1;
+      padding: 15px;
+      background: #fff;
+      color: #393939;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #242424;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
