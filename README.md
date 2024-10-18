@@ -1,4 +1,4 @@
-<img src="volzeur.png" style="width: 300px"></img>
+<img src="Volzeur.png" style="width: 300px"></img>
 # Volzeur - Alternatif Frontend Gratis Bebas Iklan
 
 [![Version](https://img.shields.io/badge/version-1.0-brightgreen.svg)](https://github.com/username/repo)
