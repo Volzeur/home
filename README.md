@@ -20,7 +20,7 @@ Proyek ini dibangun untuk memberikan kebebasan dan fleksibilitas kepada pengguna
 
 ## 🚀 Cara Menggunakan
 
-1. **Buka tautan** https://volzeur.github.io/home/
+1. **Buka tautan** https://volzeur.rf.gd
 
 2. **Pilih platform yang anda ingin gunakan**
 
